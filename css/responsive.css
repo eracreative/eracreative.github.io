@@ -123,7 +123,7 @@ h6 {font-size: 17px; line-height: 26px;}
 .image-column {left: 0; position: inherit; top: inherit; transform: inherit;}
 
 /*Iframe*/
-.iframe-h-2, .md-iframe{height: 300px !important;}
+.iframe-h-2, .md-iframe{height: 400px !important;}
 
 /*Masonry*/
 .grid.columns-3 .grid-item, .masonry.columns-3 .masonry-brick {width: 50%;}
