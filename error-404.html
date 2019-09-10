@@ -7,7 +7,7 @@
 <meta name="description" content="HTML5 Template" />
 <meta name="author" content="www.themeht.com" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>Sassaht - SaaS, Startup & WebApp Prebuilt Template</title>
+<title>Loptus - Digital Marketing Agency Responsive HTML5 Template</title>
 
 <!-- favicon icon -->
 <link rel="shortcut icon" href="images/favicon.ico" />
@@ -23,8 +23,14 @@
 <!--== fontawesome -->
 <link href="css/fontawesome-all.css" rel="stylesheet" type="text/css" />
 
-<!--== line-awesome -->
+<!--== lineawesome -->
 <link href="css/line-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<!--== themify -->
+<link href="css/themify-icons.css" rel="stylesheet" type="text/css" />
+
+<!--== audioplayer -->
+<link href="css/audioplayer/media-player.css" rel="stylesheet" type="text/css" />
 
 <!--== magnific-popup -->
 <link href="css/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css" />
@@ -44,10 +50,6 @@
 <!--== responsive -->
 <link href="css/responsive.css" rel="stylesheet" type="text/css" />
 
-<!--== color-customizer -->
-<link href="#" data-style="styles" rel="stylesheet">
-<link href="css/color-customize/color-customizer.css" rel="stylesheet" type="text/css" />
-
 <!-- inject css end -->
 
 </head>
@@ -61,15 +63,118 @@
 <!-- preloader start -->
 
 <div id="ht-preloader">
-  <div class="clear-loader">
-    <div class="loader">
-      <div class="loader-div"><span>Tcspress</span>
-      </div>
+  <div class="loader clear-loader">
+    <div class="loader-text">Loading</div>
+    <div class="loader-dots"> <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
   </div>
 </div>
 
 <!-- preloader end -->
+
+
+<!--header start-->
+
+<header id="site-header" class="header">
+  <div id="header-wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- Navbar -->
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand logo" href="index.html">
+              <img id="logo-img" class="img-center" src="images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto mr-auto">
+                <!-- Home -->
+                <li class="nav-item dropdown" data-toggle="hover"> <a class="nav-link active" href="index.html" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                </li>
+                <li class="nav-item dropdown" data-toggle="hover"> <a class="nav-link" href="about.html" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
+                </li>
+                <li class="nav-item dropdown" data-toggle="hover"> <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                  <div class="dropdown-menu">
+                    <ul class="list-unstyled">
+                      <li><a href="branding.html">Corporate Branding</a>
+                      </li>
+                      <li><a href="printing.html">General Printing</a>
+                      </li>
+					  <li><a href="graphics.html">Creative Graphics</a>
+                      </li>
+                      <li><a href="webdesign.html">Web Design</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item dropdown" data-toggle="hover"> <a class="nav-link" href="portfolio.html" role="button" aria-haspopup="true" aria-expanded="false">Project</a>
+                  </li>
+                <li class="nav-item dropdown" data-toggle="hover"> <a class="nav-link" href="contact.html" role="button" aria-haspopup="true" aria-expanded="false">Contact Us</a>
+                  </li>
+              </ul>
+            </div>
+            <div class="right-nav align-items-center d-flex justify-content-end list-inline"> <a class="btn btn-white btn-sm" href="login.html">Login</a>
+              <div class="search">
+                <div class="search-content">
+                  <div class="search-button"> <i class="fas fa-search"></i>
+                  </div>
+                  <form id="search-form" class="search-form">
+                    <input type="search" class="search-input" placeholder="Search Here...">
+                  </form>
+                </div>
+              </div> <a href="#" class="ht-nav-toggle"><span></span></a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav id="ht-main-nav"> <a href="#" class="ht-nav-toggle active"><span></span></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img class="img-fluid side-logo mb-3" src="images/logo.png" alt="">
+        <p class="mb-5">Tcspress - We feature across ideation, creative design, quality print production and we champion all forms of print related jobs in little and volumn sizes.</p>
+        <div class="form-info">
+          <h4 class="title">Contact info</h4>
+          <ul class="contact-info list-unstyled mt-4">
+            <li class="mb-4"><i class="la la-street-view"></i><span>Address:</span>
+              <p>55 Ogunlana Drive Surulere, Lagos, Nigeria</p>
+            </li>
+            <li class="mb-4"><i class="la la-tty"></i><span>Phone:</span><a href="tel:+2348026958952">+234 802 695 8952</a>
+            </li>
+			<li class="mb-4"><i class="la la-whatsapp"></i><span>Whatsapp:</span><a href="https://wa.me/+2347067684009?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products%20and%20services...">+234 706 768 4009</a>
+            </li>
+            <li><i class="la la-envelope-o"></i><span>Email</span><a href="mailto:info@tcspress.com"> info@tcspress.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-icons social-colored mt-5">
+          <ul class="list-inline">
+            <li class="mb-2 social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="mb-2 social-twitter"><a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="mb-2 social-linkedin"><a href="https://wa.me/+2347067684009?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products%20and%20services..."><i class="fab fa-whatsapp"></i></a>
+            </li>
+            <li class="mb-2 social-gplus"><a href="#"><i class="fab fa-google-plus-g"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!--header end-->
 
 
 <!--body content start-->
@@ -78,20 +183,14 @@
 
 <!--error start-->
 
-<section class="fullscreen-banner error-page-2 text-center o-hidden p-0 pos-r grediant-bg">
-  <div id="particles-js" data-particles-type="hexagons" data-particles-number="30" data-particles-color="#ff7e00,#3224e9,#69e9f2" data-particles-line="false" data-particles-size="10" data-particles-speed="1" data-particles-hover="true" data-particles-hover-mode="grab" data-particles-colors-type="random_colors"></div>
+<section class="fullscreen-banner p-0 o-hidden text-center white-overlay error-page" data-bg-img="images/bg/06.jpg" data-overlay="9">
   <div class="align-center">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-12 ml-auto mr-auto">
-          <h1><span class="blinkblink">4</span> <span class="rotateme">0</span> <span class="zoom-fade">4</span></h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 col-md-10 ml-auto mr-auto">
-          <h5 class="line-h-5 text-white">You’re either misspelling the URL
-or requesting a page that's no longer here.</h5>
-          <a class="btn btn-white" href="index.html"><span>Back To Home Page</span></a>
+        <div class="col-md-12 text-center text-black">
+          <h1>4<span><i>0</i></span>4</h1>
+          <h5 class="mb-4 text-capitalize mt-3">Ooops, the page doesn't seem to exit. </h5>
+          <a class="btn btn-theme btn-radius btn-iconic" href="index.html"><i class="fas fa-long-arrow-alt-left"></i> <span>back to home</span></a>
         </div>
       </div>
     </div>
@@ -104,14 +203,14 @@ or requesting a page that's no longer here.</h5>
 
 <!--body content end--> 
 
-
 </div>
 
 <!-- page wrapper end -->
 
+
 <!--back-to-top start-->
 
-<div class="scroll-top"><a class="smoothscroll" href="#top"><i class="la la-hand-pointer-o"></i></a></div>
+<div class="scroll-top"><a class="smoothscroll" href="#top"><i class="flaticon-upload"></i></a></div>
 
 <!--back-to-top end-->
 
@@ -119,36 +218,41 @@ or requesting a page that's no longer here.</h5>
 <!-- inject js start -->
 
 <!--== jquery -->
-<script src="js/common-theme.js"></script>
+<script src="js/jquery.min.js"></script>
 
-<!--== nice-select -->
-<script src="js/jquery.nice-select.js"></script>
+<!--== popper -->
+<script src="js/popper.min.js"></script>
+
+<!--== bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+
+<!--== appear -->
+<script src="js/jquery.appear.js"></script> 
+
+<!--== modernizr -->
+<script src="js/modernizr.js"></script> 
+
+<!--== audioplayer -->
+<script src="js/audioplayer/media-player.js"></script>
+
+<!--== magnific-popup -->
+<script src="js/magnific-popup/jquery.magnific-popup.min.js"></script> 
 
 <!--== owl-carousel -->
 <script src="js/owl-carousel/owl.carousel.min.js"></script> 
 
-<!--== magnific-popup --> 
-<script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
-
 <!--== counter -->
 <script src="js/counter/counter.js"></script> 
+
+<!--== countdown -->
+<script src="js/countdown/jquery.countdown.min.js"></script> 
 
 <!--== isotope -->
 <script src="js/isotope/isotope.pkgd.min.js"></script> 
 
-<!--== particles -->
-<script src="js/particles.min.js"></script>
-
-<!--== vivus -->
-<script src="js/vivus/pathformer.js"></script>
-<script src="js/vivus/vivus.js"></script>
-
-<!--== raindrops -->
-<script src="js/raindrops/jquery-ui.js"></script>
-<script src="js/raindrops/raindrops.js"></script>
-
-<!--== countdown -->
-<script src="js/countdown/jquery.countdown.min.js"></script> 
+<!--== mouse-parallax -->
+<script src="js/mouse-parallax/tweenmax.min.js"></script>
+<script src="js/mouse-parallax/jquery-parallax.js"></script> 
 
 <!--== contact-form -->
 <script src="js/contact-form/contact-form.js"></script>
@@ -164,9 +268,6 @@ or requesting a page that's no longer here.</h5>
 
 <!--== wow -->
 <script src="js/wow.min.js"></script>
-
-<!--== color-customize -->
-<script src="js/color-customize/color-customizer.js"></script> 
 
 <!--== theme-script -->
 <script src="js/theme-script.js"></script>

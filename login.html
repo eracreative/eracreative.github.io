@@ -7,7 +7,7 @@
 <meta name="description" content="HTML5 Template" />
 <meta name="author" content="www.themeht.com" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>Tcspress - Printing, Branding, Graphics, ICT solutions & Web Design</title>
+<title>Loptus - Digital Marketing Agency Responsive HTML5 Template</title>
 
 <!-- favicon icon -->
 <link rel="shortcut icon" href="images/favicon.ico" />
@@ -23,8 +23,14 @@
 <!--== fontawesome -->
 <link href="css/fontawesome-all.css" rel="stylesheet" type="text/css" />
 
-<!--== line-awesome -->
+<!--== lineawesome -->
 <link href="css/line-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<!--== themify -->
+<link href="css/themify-icons.css" rel="stylesheet" type="text/css" />
+
+<!--== audioplayer -->
+<link href="css/audioplayer/media-player.css" rel="stylesheet" type="text/css" />
 
 <!--== magnific-popup -->
 <link href="css/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css" />
@@ -44,10 +50,6 @@
 <!--== responsive -->
 <link href="css/responsive.css" rel="stylesheet" type="text/css" />
 
-<!--== color-customizer -->
-<link href="#" data-style="styles" rel="stylesheet">
-<link href="css/color-customize/color-customizer.css" rel="stylesheet" type="text/css" />
-
 <!-- inject css end -->
 
 </head>
@@ -61,10 +63,12 @@
 <!-- preloader start -->
 
 <div id="ht-preloader">
-  <div class="clear-loader">
-    <div class="loader">
-      <div class="loader-div"><span>Tcspress</span>
-      </div>
+  <div class="loader clear-loader">
+    <div class="loader-text">Loading</div>
+    <div class="loader-dots"> <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
   </div>
 </div>
@@ -74,16 +78,15 @@
 
 <!--header start-->
 
-
-<header id="site-header" class="header header-2">
+<header id="site-header" class="header">
   <div id="header-wrap">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <!-- Navbar -->
           <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand logo" href="index.html">
-             <img class="img-center" src="images/logo-white.png" alt="">
+              <img id="logo-img" class="img-center" src="images/logo.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span></span>
               <span></span>
@@ -92,34 +95,40 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav ml-auto mr-auto">
                 <!-- Home -->
-                <li class="nav-item"> <a class="nav-link active" href="index.html">Home</a></li>
-                <li class="nav-item"> <a class="nav-link" href="about.html">About Us</a>
-                </li>                
+                <li class="nav-item dropdown" data-toggle="hover"> <a class="nav-link active" href="index.html" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                </li>
+                <li class="nav-item dropdown" data-toggle="hover"> <a class="nav-link" href="about.html" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
+                </li>
                 <li class="nav-item dropdown" data-toggle="hover"> <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                   <div class="dropdown-menu">
                     <ul class="list-unstyled">
-                      <li><a href="printing.html">Printing</a>
+                      <li><a href="branding.html">Corporate Branding</a>
                       </li>
-					  <li><a href="graphics.html">Graphics</a>
+                      <li><a href="printing.html">General Printing</a>
+                      </li>
+					  <li><a href="graphics.html">Creative Graphics</a>
                       </li>
                       <li><a href="webdesign.html">Web Design</a>
                       </li>
-					  <li><a href="ict.html">ICT Solutions</a>
-                      </li>
-					</ul>
-				  </div>
+                    </ul>
+                  </div>
                 </li>
-				<li class="nav-item"> <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-               </ul>
+                <li class="nav-item dropdown" data-toggle="hover"> <a class="nav-link" href="portfolio.html" role="button" aria-haspopup="true" aria-expanded="false">Project</a>
+                  </li>
+                <li class="nav-item dropdown" data-toggle="hover"> <a class="nav-link" href="contact.html" role="button" aria-haspopup="true" aria-expanded="false">Contact Us</a>
+                  </li>
+              </ul>
             </div>
-            <div class="right-nav align-items-center d-flex justify-content-end list-inline">
-              <div class="header-call d-flex align-items-center mr-3">
-                <h5>call:</h5>
-                <a href="tel:+2347067684009"><b>+234 706 768 4009</b></a>
-              </div> <a class="btn btn-white btn-sm" href="login.html"><span>Login</span></a>
+            <div class="right-nav align-items-center d-flex justify-content-end list-inline"> <a class="btn btn-white btn-sm" href="login.html">Login</a>
+              <div class="search">
+                <div class="search-content">
+                  <div class="search-button"> <i class="fas fa-search"></i>
+                  </div>
+                  <form id="search-form" class="search-form">
+                    <input type="search" class="search-input" placeholder="Search Here...">
+                  </form>
+                </div>
+              </div> <a href="#" class="ht-nav-toggle"><span></span></a>
             </div>
           </nav>
         </div>
@@ -128,25 +137,56 @@
   </div>
 </header>
 
+<nav id="ht-main-nav"> <a href="#" class="ht-nav-toggle active"><span></span></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img class="img-fluid side-logo mb-3" src="images/logo.png" alt="">
+        <p class="mb-5">Tcspress - We feature across ideation, creative design, quality print production and we champion all forms of print related jobs in little and volumn sizes.</p>
+        <div class="form-info">
+          <h4 class="title">Contact info</h4>
+          <ul class="contact-info list-unstyled mt-4">
+            <li class="mb-4"><i class="la la-street-view"></i><span>Address:</span>
+              <p>55 Ogunlana Drive Surulere, Lagos, Nigeria</p>
+            </li>
+            <li class="mb-4"><i class="la la-tty"></i><span>Phone:</span><a href="tel:+2348026958952">+234 802 695 8952</a>
+            </li>
+			<li class="mb-4"><i class="la la-whatsapp"></i><span>Whatsapp:</span><a href="https://wa.me/+2347067684009?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products%20and%20services...">+234 706 768 4009</a>
+            </li>
+            <li><i class="la la-envelope-o"></i><span>Email</span><a href="mailto:info@tcspress.com"> info@tcspress.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-icons social-colored mt-5">
+          <ul class="list-inline">
+            <li class="mb-2 social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="mb-2 social-twitter"><a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="mb-2 social-linkedin"><a href="https://wa.me/+2347067684009?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products%20and%20services..."><i class="fab fa-whatsapp"></i></a>
+            </li>
+            <li class="mb-2 social-gplus"><a href="#"><i class="fab fa-google-plus-g"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
 <!--header end-->
 
 
 <!--page title start-->
 
-<section class="page-title o-hidden pos-r md-text-center" data-bg-color="#d2f9fe">
-  <div class="page-title-pattern topBottom" data-bg-img="images/bg/01.png"></div>
+<section class="page-title o-hidden text-center grey-bg bg-contain animatedBackground" data-bg-img="images/pattern/05.png">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-lg-7 col-md-12">
-        <h1 class="title"><span>Login</span> Now</h1>
-        <p>We're Build With Latest And Modern Code</p>
-      </div>
-      <div class="col-lg-5 col-md-12 text-lg-right md-mt-3">
+      <div class="col-md-12">
+        <h1 class="title">Login</h1>
         <nav aria-label="breadcrumb" class="page-breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Home</a>
-            </li>
-            <li class="breadcrumb-item">Services
             </li>
             <li class="breadcrumb-item active" aria-current="page">Login</li>
           </ol>
@@ -154,6 +194,7 @@
       </div>
     </div>
   </div>
+  <div class="page-title-pattern"><img class="img-fluid" src="images/bg/06.png" alt=""></div>
 </section>
 
 <!--page title end-->
@@ -167,33 +208,10 @@
 
 <section class="login">
   <div class="container">
-    <div class="row row-eq-height no-gutters">
-      <div class="col-lg-4 col-md-12 ml-auto dark-bg px-4 align-item-middle text-center radius">
-        <div>
-        <div class="section-title text-white">
-          <h2 class="title">Sign In</h2>
-          <div class="title-bdr">
-            <div class="left-bdr"></div>
-            <div class="right-bdr"></div>
-          </div>
-          <p>Welcome To Sassaht, Please Enter Your Details And Start Journy With Sassaht</p>
-        </div>
-        <h5 class="mb-0 mt-4 text-capitalize text-white">Don't Have An Account ? <br> <a href="register.html">Sign Up!</a></h5>
-      </div>
-      </div>
-      <div class="col-lg-6 col-md-12 mr-auto md-mt-5">
-        <div class="login-form text-center white-bg box-shadow radius px-5 py-5">
-           <div class="social-icons social-colored">
-            <ul class="list-inline">
-              <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li class="social-dribbble"><a href="#"><i class="fab fa-dribbble"></i></a>
-              </li>
-              <li class="social-skype"><a href="#"><i class="fab fa-skype"></i></a>
-              </li>
-            </ul>
-          </div>
-          <p class="my-3 font-italic">Or Use You Email Account</p>
+    <div class="row">
+      <div class="col-lg-6 col-md-10 ml-auto mr-auto">
+        <div class="login-form text-center box-shadow white-bg px-5 py-5 xs-px-2 xs-py-2">
+          <h2 class="title mb-5">Login</h2>
           <form id="contact-form" method="post" action="php/contact.php">
             <div class="messages"></div>
             <div class="form-group">
@@ -205,17 +223,26 @@
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group mt-4 mb-5">
-              <div class="remember-checkbox d-flex align-items-center justify-content-between">
+              <div class="remember-checkbox d-sm-flex align-items-center justify-content-between">
                 <div class="checkbox">
                   <input type="checkbox" id="check2" name="check2">
                   <label for="check2">Remember me</label>
                 </div>
                  <a href="#">Forgot Password?</a>
               </div>
-            </div> <a href="#" class="btn btn-theme text-uppercase"><span>Sign In</span></a>
-           
-          </form>         
-         
+            </div> <a href="#" class="btn btn-theme btn-lg"><span>Sign In</span></a>
+          </form>
+          <div class="social-icons fullwidth social-colored mt-5 text-center clearfix">
+            <h5 class="text-green mb-3">Login with Social</h5>
+            <ul class="list-inline">
+              <li class="social-facebook"><a href="#">Facebook</a>
+              </li>
+              <li class="social-twitter"><a href="#">Twitter</a>
+              </li>
+              <li class="social-gplus xs-mt-1"><a href="#">Google Plus</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -225,122 +252,122 @@
 <!--login end-->
 
 
-<!--subscribe start-->
-
-<section>
-  <div class="container">
-     <div class="row justify-content-center text-center">
-      <div class="col-lg-8 col-md-12">
-        <div class="section-title">
-          <h2 class="title">Subscribe Our <span>Newsletter</span></h2>
-          <div class="title-bdr">
-            <div class="left-bdr"></div>
-            <div class="right-bdr"></div>
-          </div>
-          <p>Subscribe today and get notified when we post quarterly contests, deals, freebies and more. </p>
-        </div>
-      </div>
-    </div>
-    <div class="row text-center">
-      <div class="col-lg-8 col-md-10 ml-auto mr-auto">
-        <div class="subscribe-form">
-          <form id="mc-form" class="group d-md-flex align-items-center">
-            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Enter Email Address" required="">
-            <input class="btn btn-theme" type="submit" name="subscribe" value="Subscribe">
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!--subscribe end-->
-
 </div>
 
 <!--body content end--> 
 
 
 <!--footer start-->
-<div id="waterdrop"></div>
-<footer class="footer theme-bg">
-  <div class="primary-footer">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-4 col-md-6">
-          <div class="footer-logo mb-3">
-            <img id="footer-logo-white-img" src="images/logo-white.png" class="img-center" alt="">
-          </div>
-          <p class="mb-0">Tcspress - Printing, Branding, Graphics, ICT solutions & Web Design Is fully responsible, Sassaht is the Creative, Modern HTML5 Template. Sassaht is an the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted.</p>
-          
-        </div>
-        <div class="col-lg-4 col-md-6 sm-mt-5">
-          <h4 class="mb-4 text-white">Usefull link</h4>
-          <div class="footer-list justify-content-between d-flex">
-          <ul class="list-unstyled w-100">
-            <li><a href="about-us.html">About Us</a>
-            </li>
-            <li><a href="services.html">Service</a>
-            </li>
-            <li><a href="team.html">Team</a>
-            </li>
-            <li><a href="team-single.html">Team Single</a>
-            </li>
-            <li><a href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-          <ul class="list-unstyled w-100">
-            <li><a href="blog-right-sidebar.html">Blog</a>
-            </li>
-            <li><a href="faq.html">Faq</a>
-            </li>
-            <li><a href="error-404.html">Error 404</a>
-            </li>
-            <li><a href="privacy-policy.html">Privacy Policy</a>
-            </li>
-            <li><a href="terms-and-conditions.html">Terms</a>
-            </li>
-          </ul>
-        </div>
-        </div>
-        <div class="col-lg-4 col-md-12 md-mt-5">
-          <div class="footer-cntct">
-          <h4 class="mb-4 text-white">Get In Touch</h4>
-          <ul class="media-icon list-unstyled">
-            <li>
-              <p class="mb-0"><i class="la la-map-o"></i>  <b>423B, Road Wordwide Country, USA</b>
-              </p>
-            </li>
-            <li><i class="la la-envelope-o"></i>  <a href="mailto:info@tcspress.com"><b>info@tcspress.com</b></a>
-            </li>
-            <li><i class="la la-phone"></i>  <a href="tel:+2347067684009"><b>+234 706 768 4009</b></a>
-            </li>
-          </ul> 
-          <div class="social-icons mt-3">
-            <ul class="list-inline">
-              <li><a href="#"><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li><a href="#"><i class="fab fa-dribbble"></i></a>
-              </li>
-              <li><a href="#"><i class="fab fa-skype"></i></a>
-              </li>
-            </ul>
-          </div>
-          </div>         
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="secondary-footer mt-5 text-center">
-    <div class="container">
-      <div class="copyright">
-        <div class="row">
-          <div class="col-md-12"> <span>Copyright 2019 Sassaht Theme by <u><a href="#">ThemeHt</a></u> | All Rights Reserved</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+<footer class="footer white-bg pos-r o-hidden bg-contain" data-bg-img="images/pattern/01.png">
+  <div class="round-p-animation"></div>
+	<div class="primary-footer">
+		<div class="container-fluid p-0">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="ht-theme-info bg-contain bg-pos-r h-100 dark-bg text-white" data-bg-img="images/bg/02.png">
+						<div class="footer-logo">
+							<a href="index.html">
+              <img class="img-center" src="images/logo-white.png" alt="">
+              </a>
+						</div>
+						<p class="mb-3">Tongue Confess Solutions - We feature across ideation, creative design, quality print production and we champion all forms of print related jobs in little and volumn sizes.</p> 
+						<a class="btn-simple" href="about.html"><span>Read More <i class="fas fa-long-arrow-alt-right"></i></span></a>
+						<div class="social-icons social-border circle social-hover mt-5">
+							<h4 class="title">Follow Us</h4>
+							<ul class="list-inline">
+								<li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
+								</li>
+								<li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a>
+								</li>
+								<li class="social-gplus"><a href="#"><i class="fab fa-google-plus-g"></i></a>
+								</li>
+								<li class="social-linkedin"><a href="https://wa.me/+2347067684009?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products%20and%20services..."><i class="fab fa-whatsapp"></i></a>
+								</li>
+								<li class="social-skype"><a href="#"><i class="fab fa-skype"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-8 py-8 md-px-5">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 footer-list">
+							<h4 class="title">Usefull links</h4>
+							<div class="row">
+								<div class="col-sm-5">
+									<ul class="list-unstyled">
+										<li><a href="about.html">About Us</a>
+										</li>
+										<li><a href="contact.html">Contact Us</a>
+										</li>
+										<li><a href="portfolio.html">Portfolio</a>
+										</li>
+										<li><a href="index.html">Faq</a>
+										</li>
+										</ul>
+								</div>
+								<div class="col-sm-7">
+									<ul class="list-unstyled">
+										<li><a href="">Our Service</a>
+										</li>
+										<li><a href="branding.html">Corporate Branding</a>
+										</li>
+										<li><a href="printing.html">General Printing</a>
+										</li>
+										<li><a href="graphics.html">Creative Graphics</a>
+										</li>
+										<li><a href="webdesign.html">Web Design</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 sm-mt-5">
+							<h4 class="title">Contact us</h4>
+							<ul class="media-icon list-unstyled">
+								<li><p class="mb-0"> 55 Ogunlana Drive Surulere, Lagos, Nigeria</p>
+								</li>
+								<li class="mb-3"><p>18 Abiloye Street Satellite Town, Lagos, Nigeria.</p>              
+								</li>
+								<li><a href="mailto:info@tcspress.com"> info@tcspress.com</a>
+								</li>
+								<li><a href="tel:+2347067684009">+234 706 768 4009</a>
+								</li>
+								<li><a href="tel:+2348026958952">+234 802 695 8952</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="row mt-5">
+						<div class="col-lg-10 col-md-12 mr-auto">
+							<div class="align-items-center white-bg box-shadow px-3 py-3 radius d-md-flex justify-content-between">
+								<h4 class="mb-0">Subscribe</h4>
+								<div class="subscribe-form sm-mt-2">
+									<form id="mc-form" class="group">
+										<input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+										<input class="btn btn-theme" type="submit" name="subscribe" value="Subscribe">
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="secondary-footer">
+		<div class="container">
+			<div class="copyright">
+				<div class="row align-items-center">
+					<div class="col-md-6"> <span>Copyright 2019 | All Rights Reserved</span>
+					</div>
+					<div class="col-md-6 text-md-right sm-mt-2"> <span>Tongue Confess <a href="#">Solutions</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </footer>
 
 <!--footer end-->
@@ -350,9 +377,10 @@
 
 <!-- page wrapper end -->
 
+
 <!--back-to-top start-->
 
-<div class="scroll-top"><a class="smoothscroll" href="#top"><i class="la la-hand-pointer-o"></i></a></div>
+<div class="scroll-top"><a class="smoothscroll" href="#top"><i class="ti-cloud-up"></i></a></div>
 
 <!--back-to-top end-->
 
@@ -360,36 +388,41 @@
 <!-- inject js start -->
 
 <!--== jquery -->
-<script src="js/common-theme.js"></script>
+<script src="js/jquery.min.js"></script>
 
-<!--== nice-select -->
-<script src="js/jquery.nice-select.js"></script>
+<!--== popper -->
+<script src="js/popper.min.js"></script>
+
+<!--== bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+
+<!--== appear -->
+<script src="js/jquery.appear.js"></script> 
+
+<!--== modernizr -->
+<script src="js/modernizr.js"></script> 
+
+<!--== audioplayer -->
+<script src="js/audioplayer/media-player.js"></script>
+
+<!--== magnific-popup -->
+<script src="js/magnific-popup/jquery.magnific-popup.min.js"></script> 
 
 <!--== owl-carousel -->
 <script src="js/owl-carousel/owl.carousel.min.js"></script> 
 
-<!--== magnific-popup --> 
-<script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
-
 <!--== counter -->
 <script src="js/counter/counter.js"></script> 
+
+<!--== countdown -->
+<script src="js/countdown/jquery.countdown.min.js"></script> 
 
 <!--== isotope -->
 <script src="js/isotope/isotope.pkgd.min.js"></script> 
 
-<!--== particles -->
-<script src="js/particles.min.js"></script>
-
-<!--== vivus -->
-<script src="js/vivus/pathformer.js"></script>
-<script src="js/vivus/vivus.js"></script>
-
-<!--== raindrops -->
-<script src="js/raindrops/jquery-ui.js"></script>
-<script src="js/raindrops/raindrops.js"></script>
-
-<!--== countdown -->
-<script src="js/countdown/jquery.countdown.min.js"></script> 
+<!--== mouse-parallax -->
+<script src="js/mouse-parallax/tweenmax.min.js"></script>
+<script src="js/mouse-parallax/jquery-parallax.js"></script> 
 
 <!--== contact-form -->
 <script src="js/contact-form/contact-form.js"></script>
@@ -405,9 +438,6 @@
 
 <!--== wow -->
 <script src="js/wow.min.js"></script>
-
-<!--== color-customize -->
-<script src="js/color-customize/color-customizer.js"></script> 
 
 <!--== theme-script -->
 <script src="js/theme-script.js"></script>
