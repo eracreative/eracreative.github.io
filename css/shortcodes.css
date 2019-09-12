@@ -361,8 +361,8 @@
 .dark-bg .btn, .theme-bg .btn{color: #ffffff;}
 .btn.focus, .btn:focus{box-shadow: none;}
 .btn:hover {background: #ec1f24; color: #fff; -webkit-animation-name: jello; animation-name: jello; -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; background-color: rgba(255,255,255,0.2);}
-.btn.btn-theme{ background: rgb(255,120,16); background: linear-gradient(90deg, rgba(255,120,16,1) 0%, rgba(255,94,44,1) 90%);  color: #ffffff;}
-.btn.btn-theme:hover{background: rgb(255,120,16); background: linear-gradient(90deg, rgba(255,94,44,1) 0%, rgba(255,120,16,1) 90%);}
+.btn.btn-theme{ background: rgb(236,31,36); background: linear-gradient(90deg, rgba(236,31,36,1) 0%, rgba(255,70,44,1) 90%);  color: #ffffff;}
+.btn.btn-theme:hover{background: rgb(236,31,36); background: linear-gradient(90deg, rgba(255,70,44,1) 0%, rgba(236,31,36,1) 90%);}
 .btn.btn-border{border:5px solid #ec1f24;}
 .dark-bg .btn.btn-border, .theme-bg .btn.btn-border{border:5px solid rgba(255,255,255,0.2);}
 .btn.btn-circle{border-radius: 30px;}
@@ -405,13 +405,13 @@
 .section-title h6{padding: 3px 5px; position: relative; display: inline-block; font-weight: 500; background: #ff5e2c; color: #ffffff; margin-bottom: 20px;}
 
 .title:before {position:absolute; left: 0; width:100px; margin:0 auto; bottom:0; height: 3px; animation: rotate 80s infinite linear; -webkit-animation: rotate 80s infinite linear; content: ""; border-radius: 5px;
-  background: rgb(255,120,16); /* Old browsers */
-background: -moz-linear-gradient(left,  rgba(255,120,16,1) 0%, rgba(255,21,106,1) 25%, rgba(255,94,44,1) 50%, rgba(187,13,76,1) 75%, rgba(69,204,137,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,120,16,1)), color-stop(25%,rgba(255,21,106,1)), color-stop(50%,rgba(255,94,44,1)), color-stop(75%,rgba(187,13,76,1)), color-stop(100%,rgba(255,120,16,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left,  rgba(255,120,16,1) 0%,rgba(255,21,106,1) 25%,rgba(255,94,44,1) 50%,rgba(187,13,76,1) 75%,rgba(69,204,137,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left,  rgba(255,120,16,1) 0%,rgba(255,21,106,1) 25%,rgba(255,94,44,1) 50%,rgba(187,13,76,1) 75%,rgba(69,204,137,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left,  rgba(255,120,16,1) 0%,rgba(255,21,106,1) 25%,rgba(255,94,44,1) 50%,rgba(187,13,76,1) 75%,rgba(69,204,137,1) 100%); /* IE10+ */
-background: linear-gradient(to right,  rgba(255,120,16,1) 0%,rgba(255,21,106,1) 25%,rgba(255,94,44,1) 50%,rgba(187,13,76,1) 75%,rgba(69,204,137,1) 100%); /* W3C */
+  background: rgb(236,31,36); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(236,31,36,1) 0%, rgba(255,21,106,1) 25%, rgba(255,70,44,1) 50%, rgba(187,13,76,1) 75%, rgba(69,204,137,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(236,31,36,1)), color-stop(25%,rgba(255,21,106,1)), color-stop(50%,rgba(255,70,44,1)), color-stop(75%,rgba(187,13,76,1)), color-stop(100%,rgba(236,31,36,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(236,31,36,1) 0%,rgba(255,21,106,1) 25%,rgba(255,70,44,1) 50%,rgba(187,13,76,1) 75%,rgba(69,204,137,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(236,31,36,1) 0%,rgba(255,21,106,1) 25%,rgba(255,70,44,1) 50%,rgba(187,13,76,1) 75%,rgba(69,204,137,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(236,31,36,1) 0%,rgba(255,21,106,1) 25%,rgba(255,70,44,1) 50%,rgba(187,13,76,1) 75%,rgba(69,204,137,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(236,31,36,1) 0%,rgba(255,21,106,1) 25%,rgba(255,70,44,1) 50%,rgba(187,13,76,1) 75%,rgba(69,204,137,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec1f24', endColorstr='#ec1f24',GradientType=1 ); /* IE6-9 */}
 
 .text-center .title:before{left: 50%;}

@@ -187,7 +187,7 @@ section{padding: 80px 0;}
     How It Work
 ------------------------*/
 .work-process-inner{position: relative;}
-.step-num {background: rgb(255,120,16); background: linear-gradient(90deg, rgba(255,120,16,1) 0%, rgba(255,94,44,1) 50%); border: 5px solid #fff; border-radius: 50%; color: #fff; font-size: 30px; font-weight: bold; height: 80px; line-height: 75px; position: absolute; right: -40px; top: -40px; width: 80px; text-align: center;}
+.step-num {background: rgb(236,31,36); background: linear-gradient(90deg, rgba(236,31,36,1) 0%, rgba(255,70,44,1) 50%); border: 5px solid #fff; border-radius: 50%; color: #fff; font-size: 30px; font-weight: bold; height: 80px; line-height: 75px; position: absolute; right: -40px; top: -40px; width: 80px; text-align: center;}
 .work-process-inner .work-img {border: 2px dashed #e2dfdf; border-radius: 10px; display: inline-block; width: 230px; height: 250px; line-height: 250px; margin: 40px 0; position: relative;}
 .work-process.style-2 .work-process-inner{padding-left: 80px;}
 .work-process.style-2 .step-num{right: inherit; left: 0; top: 0; border: none; width: 60px; height: 60px; line-height: 60px; font-size: 24px;}
