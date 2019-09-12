@@ -316,7 +316,7 @@ iframe{width: 100%; border: none; pointer-events: auto;}
   border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%; width: 100%; height: 100%; animation: morph 10s linear infinite; transform-style: preserve-3d; outline: 1px solid transparent; will-change: border-radius;}
 .round-animation:before,
 .round-animation:after{content: ''; width: 100%; height: 100%; display: block; position: absolute; left: 0; top: 0; border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%; will-change: border-radius, transform, opacity; animation-delay: 200ms;
-background-image: linear-gradient(120deg, rgba(255,94,44,.55) 0%, rgba(255,120,16,.89) 100%);}
+background-image: linear-gradient(120deg, rgba(255,94,44,.55) 0%, rgba(255,0,16,.89) 100%);}
 .round-animation:before{animation: morph 3s linear infinite; opacity: .21; animation-duration: 1.5s;}
 .round-animation img{position: relative; z-index: 99;}
 

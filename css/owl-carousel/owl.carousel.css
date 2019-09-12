@@ -191,21 +191,21 @@
 .owl-carousel .owl-dots {width: 100%; display: inline-block; position: absolute; line-height: 0; bottom:0; left: 50%; transform: translateX(-50%); cursor: pointer; text-align: center; }
 .owl-carousel.owl-theme .owl-dots .owl-dot span { background: #141414; border-radius: 2px; display: inline-block; width:10px; height:8px; margin: 0px 3px; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; -ms-transition:all 0.5s ease-in-out; cursor: pointer; }
 .dark-bg .owl-carousel.owl-theme .owl-dots .owl-dot span{background: #ffffff}
-.owl-carousel.owl-theme .owl-dots .owl-dot:hover span, .owl-carousel.owl-theme .owl-dots .owl-dot.active span{background:#ff7810; width: 22px;}
+.owl-carousel.owl-theme .owl-dots .owl-dot:hover span, .owl-carousel.owl-theme .owl-dots .owl-dot.active span{background:#ec1f24; width: 22px;}
 
 
 .owl-carousel .owl-nav{display:block;position:absolute;text-indent:inherit; width: 100%; text-align: center; bottom:-20px;transform:translateX(-50%);-webkit-transform:translateX(-50%);-o-transform:translateX(-50%);-ms-transform:translateX(-50%);-moz-transform:translateX(-50%);left:50%;cursor:pointer;z-index:999;}
 .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {background: none; border:2px solid #efefef; border-radius: 30px; color: #141414; cursor: pointer; display: inline-block; font-size: 34px; line-height: 0; margin: 0 10px; padding: 10px 60px !important;}
 .owl-carousel .owl-nav button.owl-prev:hover,
-.owl-carousel .owl-nav button.owl-next:hover{background: rgb(255,120,16); background: linear-gradient(90deg, rgba(255,120,16,1) 0%, rgba(255,183,47,1) 50%); color:#fff; border-color: #ff7810;}
+.owl-carousel .owl-nav button.owl-next:hover{background: rgb(255,70,16); background: linear-gradient(90deg, rgba(255,70,16,1) 0%, rgba(255,183,47,1) 50%); color:#fff; border-color: #ec1f24;}
 
 .theme-bg .owl-carousel .owl-nav button.owl-prev,
-.theme-bg .owl-carousel .owl-nav button.owl-next{background:#ffffff;color:#ff7810;}
+.theme-bg .owl-carousel .owl-nav button.owl-next{background:#ffffff;color:#ec1f24;}
 .theme-bg .owl-carousel .owl-nav button.owl-prev:hover,
 .theme-bg .owl-carousel .owl-nav button.owl-next:hover{background:#141414;color:#fff;}
 
 .dark-bg .owl-carousel .owl-nav button.owl-prev:hover,
-.dark-bg .owl-carousel .owl-nav button.owl-next:hover{background:#ffffff;color:#ff7810;}
+.dark-bg .owl-carousel .owl-nav button.owl-next:hover{background:#ffffff;color:#ec1f24;}
 
 
 .owl-carousel .owl-item.center{transform: scale(1.1); z-index: 99;}
