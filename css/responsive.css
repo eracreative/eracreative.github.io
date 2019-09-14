@@ -28,7 +28,7 @@ h6 {font-size: 17px; line-height: 22px;}
 .lg-mt-7{margin-top: 70px !important;}
 
 /*Header*/
-.logo img {height: 50px; width: 50px;}
+.logo img {height: 50px;}
 #header-wrap.fixed-header .logo img {height: 45px;}
 .navbar-nav .nav-link {padding: 8px 5px !important;}
 

@@ -178,7 +178,7 @@
 .team-member{position: relative; text-align: center;}
 .owl-carousel .team-member {margin: 30px 15px;}
 .team-member .team-description {padding: 20px; text-align: center; background: #ffffff}
-.team-member .team-description span{color: #ef430e; font-weight: 400;}
+.team-member .team-description span{color: #ef030e; font-weight: 400;}
 .team-member .team-description h5{ margin: 0; text-transform: capitalize; font-weight: 500; color: #111121;}
 .team-social-icon {display: inline-block; margin: 0 0 -18px; opacity: 0; transition: margin 0.2s ease 0s, opacity 0.2s ease 0s;}
 .team-member:hover .team-social-icon {margin: 16px 0 0; opacity: 1;}
@@ -215,13 +215,13 @@
     Counter
 ------------------------*/
 .counter{position: relative; padding-left: 100px;}
-.counter span{font-size:50px; font-weight:700; line-height:50px; color:#ef430e;}
+.counter span{font-size:50px; font-weight:700; line-height:50px; color:#ef030e;}
 .counter i{font-size:80px; line-height:80px; color: #ec1f24; display:inline-block; position: absolute; left: 0; top: 50%;}
 .counter h5{display: block; font-weight:normal; color:#111121; font-size:20px; position:relative; margin:10px 0 0;}
 
 .counter.style-2{position: relative; padding-left: 0; text-align: center;}
 .counter.style-2 span{margin: 25px 0 15px; display: block; color: #111121}
-.counter.style-2 h5{color: #ef430e; font-weight: 500;}
+.counter.style-2 h5{color: #ef030e; font-weight: 500;}
 
 .theme-bg .counter span, .theme-bg .counter h5, .theme-bg .counter.style-2 h5,
 .dark-bg .counter span, .dark-bg .counter h5{color: #ffffff}
@@ -237,7 +237,7 @@
 .post .post-desc h5 a{color: #111121; display: inline-block;}
 .post .post-desc h5 a:hover{color: #ec1f24}
 .post .post-desc p{margin: 15px 0;}
-.post .post-desc .post-date{color: #ef430e; font-size: 24px; font-weight: 500;}
+.post .post-desc .post-date{color: #ef030e; font-size: 24px; font-weight: 500;}
 .post .post-desc .post-date span {font-size: 15px; color: #4f4e4e;}
 
 .post-author{position: absolute; left: 30px; bottom: -25px;}
@@ -260,7 +260,7 @@
 .media.inner{margin: 30px 0 30px 30px;}
 .media-holder .media img{-webkit-box-shadow: 0 20px 40px 0 rgba(28, 30, 35, 0.2); -moz-box-shadow: 0 20px 40px 0 rgba(28, 30, 35, 0.2); box-shadow: 0 20px 40px 0 rgba(28, 30, 35, 0.2);}
 .media-body h6{color: #111121; margin-bottom: 0; font-weight: 600; font-size: 20px; text-transform: capitalize; display: inline-block; vertical-align: middle;}
-.comment-date {display: inline-block; color: #ef430e; margin-bottom: 15px;}
+.comment-date {display: inline-block; color: #ef030e; margin-bottom: 15px;}
 .reply a{color: #111121; font-weight: bold; display: inline-block;}
 .reply a:hover{color: #ec1f24;}
 .media-body p{margin: 15px 0;}
@@ -288,7 +288,7 @@
 .widget .recent-post-desc{display: table-cell; vertical-align: middle; padding-left: 15px;}
 .widget .recent-post-desc a{ display: block; margin-bottom: 5px; color: #111121; font-weight: 500;}
 .widget .recent-post-desc a:hover { color: #ec1f24; }
-.widget .recent-post-desc .post-meta ul li { color: #ef430e;}
+.widget .recent-post-desc .post-meta ul li { color: #ef030e;}
 
 /*widget-Categories*/ 
 .widget .widget-categories li {display: block; padding: 10px 0; border-bottom: 1px dashed #ddd; position: relative;}
@@ -296,7 +296,7 @@
 .widget .widget-categories li:last-child{padding-bottom: 0; border-bottom: none;}
 .widget .widget-categories li a {text-transform: capitalize; color: #111121; display: block; font-weight: 400;}
 .widget .widget-categories li a:hover {color: #ec1f24; padding-left: 5px;}
-.widget-categories li i {position: absolute; right: 0; color: #ef430e}
+.widget-categories li i {position: absolute; right: 0; color: #ef030e}
 
 /*widget-tags*/ 
 .widget .widget-tags li {display: inline-block; margin: 5px 5px 15px 0;}
@@ -368,12 +368,12 @@
 .btn.btn-circle{border-radius: 30px;}
 .btn.btn-white{background: #ffffff; color: #111121}
 .btn.btn-white.btn-border{border-color: #ffffff; background: none; color: #ffffff;}
-.btn.btn-white:hover{background: #ffffff; color: #ef430e;}
-.btn.btn-white.btn-border:hover{color: #ef430e;}
+.btn.btn-white:hover{background: #ffffff; color: #ef030e;}
+.btn.btn-white.btn-border:hover{color: #ef030e;}
 .btn + .btn{margin-left: 10px;}
 .btn-simple{color: #111121; padding: 0; background: none !important; display: inline-block;}
 .dark-bg .btn-simple, .theme-bg .btn-simple{color: #ffffff;}
-.btn-simple:hover{color: #ef430e; box-shadow: none; background: none;}
+.btn-simple:hover{color: #ef030e; box-shadow: none; background: none;}
 .btn-simple:before, .btn-simple:after{display: none;}
 .theme-bg .btn-simple:hover{color: #111121;}
 
@@ -402,7 +402,7 @@
 ------------------------*/
 .title {position: relative; color: #1c2045; padding-bottom: 20px; margin-bottom: 25px;}
 .dark-bg .title, .theme-bg .title{color: #ffffff}
-.section-title h6{padding: 3px 5px; position: relative; display: inline-block; font-weight: 500; background: #ef430e; color: #ffffff; margin-bottom: 20px;}
+.section-title h6{padding: 3px 5px; position: relative; display: inline-block; font-weight: 500; background: #ef030e; color: #ffffff; margin-bottom: 20px;}
 
 .title:before {position:absolute; left: 0; width:100px; margin:0 auto; bottom:0; height: 3px; animation: rotate 80s infinite linear; -webkit-animation: rotate 80s infinite linear; content: ""; border-radius: 5px;
   background: rgb(236,31,36); /* Old browsers */
@@ -441,7 +441,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec1f24', end
 
 .portfolio-item {overflow: hidden; position: relative;}
 .portfolio-title h4{color: #ffffff}
-.portfolio-title span{color: #ef430e; text-transform: uppercase;}
+.portfolio-title span{color: #ef030e; text-transform: uppercase;}
 .portfolio-item::before {display: block; background: rgba(0, 0, 0, 0.95); content: ""; opacity: 0; visibility: hidden; position: absolute; top: 0; left: 0; width: 100%; height: 100%; -webkit-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; z-index: 1;}
 .portfolio-item:hover::before {opacity: 1; visibility: visible;}
 .portfolio-title {padding: 0 3rem; -webkit-transform: translate3d(0, -100%, 0); -ms-transform: translate3d(0, -100%, 0); transform: translate3d(0, -100%, 0); opacity: 0; visibility: hidden; -webkit-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; position: absolute; left: 0; top: 3.6rem; z-index: 2;}
@@ -452,5 +452,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec1f24', end
 .portfolio-item:hover .popup-img {opacity: 1; visibility: visible; -webkit-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0);}
 .popup-link {display: block; font-weight: 600; font-size: 18px; color: #111121; background: #FFFFFF; padding: 10px 20px; opacity: 0; visibility: hidden; -webkit-transform: translate3d(-100%, 0, 0); -ms-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0); position: absolute; bottom: 3.9rem; left: 3rem; z-index: 500;}
 .popup-link::before {display: block; content: ""; height: 1px; width: 3rem; background: rgba(255, 255, 255, 0.3); position: absolute; top: 50%; left: -3rem;}
-.popup-link:hover {background: #ef430e; color: #FFFFFF;}
+.popup-link:hover {background: #ef030e; color: #FFFFFF;}
 .portfolio-item:hover .popup-link {opacity: 1; visibility: visible; -webkit-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0);}
