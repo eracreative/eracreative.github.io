@@ -305,10 +305,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h6>Get In Touch</h6>
             <h2>Contact Us</h2> 
           </div>
-          <form id="contact-form gform" class="row" method="POST" data-email="info@tcsconcept.com" action="https://script.google.com/macros/s/AKfycbwXlp6eiTrqATgPPqeGi1pcoGYu51fd-xB2T-00AQ/exec" 
-		  onsubmit="window.open('submit.html', '_blank', 'scrollbars=no,menubar=no,height=600,width=1600,resizable=yes,toolbar=no,status=no');return true;>
-            <b class="messages"></b>
-			<div class="messages"></div>
+          <form id="gform contact-form" class="row" role="form" name="contactform" method="post" action="https://script.google.com/macros/s/AKfycbwXlp6eiTrqATgPPqeGi1pcoGYu51fd-xB2T-00AQ/exec" 
+		  onsubmit="window.open('submit.html', '_blank', 'scrollbars=no,menubar=no,height=600,width=1600,resizable=yes,toolbar=no,status=no');return true;">
+            <div class="messages"></div>
             <div class="form-group col-md-6">
               <input id="name" type="text" name="name" class="form-control" placeholder="Name" required="required" data-error="Name is required.">
               <div class="help-block with-errors"></div>
@@ -428,7 +427,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="align-items-center white-bg box-shadow px-3 py-3 radius d-md-flex justify-content-between">
 								<h4 class="mb-0">Subscribe</h4>
 								<div class="subscribe-form sm-mt-2">
-									<form id="mc-form gform" class="group"  method="POST" data-email="info@tcsconcept.com" action="https://script.google.com/macros/s/AKfycbwXlp6eiTrqATgPPqeGi1pcoGYu51fd-xB2T-00AQ/exec"
+									<form id="gform mc-form" class="group"  method="POST" data-email="info@tcsconcept.com" action="https://script.google.com/macros/s/AKfycbwXlp6eiTrqATgPPqeGi1pcoGYu51fd-xB2T-00AQ/exec"
 									onsubmit="alert('Email Submitted Successfully!');return false">
 									<div class="messages form-elements">
 										<input type="email" value="" name="EMAIL" class="email" id="email" placeholder="Email Address" required="">
@@ -529,11 +528,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="js/theme-script.js"></script>
 
 <!-- inject js end -->
-
-<!-- Submit the Form to Google Using "AJAX" -->
-  <script data-cfasync="false" type="text/javascript"
-  src="js/form-submission-handler.js"></script>
-<!-- END -->
 
 <script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='4d3c51f643a45a91c3fc7a68a09b6ebe66861cfa6117ae3cc99d625e86f9b0b2';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>
 </body>
