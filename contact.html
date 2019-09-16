@@ -170,7 +170,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </li>
               </ul>
             </div>
-            <div class="right-nav align-items-center d-flex justify-content-end list-inline"> <a class="btn btn-white btn-sm" href="https://wa.me/+2347067684009?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products%20and%20services..."><img src="images/whatsapp-24.png" style="float: left;"><strong class="imgs d-none d-sm-block" style="float: left; margin-top: 5px;"> +234 706 768 4009</strong></a>
+            <div class="right-nav align-items-center d-flex justify-content-end list-inline"> <a class="btn btn-white btn-sm" href="https://wa.me/+2347067684009?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products%20and%20services..."><img src="images/whatsapp-40.png" style="float: left;"><strong class="imgs d-none d-sm-block" style="float: left; margin-top: 5px;"> +234 706 768 4009</strong></a>
               <div class="search">
                 <div class="search-content">
                   <div class="search-button"> <i class="fas fa-search"></i>
@@ -305,22 +305,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h6>Get In Touch</h6>
             <h2>Contact Us</h2> 
           </div>
-          <form id="contact-form" class="row" method="post" action="php/contact.php">
-            <div class="messages"></div>
+          <form id="contact-form gform" class="row" method="POST" data-email="info@tcsconcept.com" action="https://script.google.com/macros/s/AKfycbwXlp6eiTrqATgPPqeGi1pcoGYu51fd-xB2T-00AQ/exec" 
+		  onsubmit="window.open('submit.html', '_blank', 'scrollbars=no,menubar=no,height=600,width=1600,resizable=yes,toolbar=no,status=no');return true;>
+            <b class="messages"></b>
+			<div class="messages"></div>
             <div class="form-group col-md-6">
-              <input id="form_name" type="text" name="name" class="form-control" placeholder="Name" required="required" data-error="Name is required.">
+              <input id="name" type="text" name="name" class="form-control" placeholder="Name" required="required" data-error="Name is required.">
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-md-6">
-              <input id="form_email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="Valid email is required.">
+              <input id="email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="Valid email is required.">
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-md-12">
-              <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Phone" required="required" data-error="Phone is required">
+              <input id="phone" type="tel" name="phone" class="form-control" placeholder="Phone" required="required" data-error="Phone is required">
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-md-12">
-              <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+              <textarea id="message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="Please,leave us a message."></textarea>
               <div class="help-block with-errors"></div>
             </div>
             <div class="col-md-12">
@@ -332,7 +334,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div class="col-lg-6 col-md-12 order-lg-1">
 	  <iframe src="https://www.google.com/maps/d/embed?mid=1sRH_f1zMhYLKqA_OnDSIWdWeGwbd9Ei9" class="map-canvas md-iframe" width="650" height="590" data-zoom="50" data-lat="3.2697" data-lng="6.44544" data-type="roadmap" data-hue="#ffc400" data-title="Tcsconcept" data-icon-path="images/marker.png" data-content="55 Ogunlana Dr, Surulere, Lagos.<br><a href='mailto:info@Tcsconcept.com'>info@Tcsconcept.com</a>"></iframe>
-        </div>
+      </div>
+      </div> 
   </div>
 </section>
 
@@ -524,6 +527,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="js/theme-script.js"></script>
 
 <!-- inject js end -->
+
+<!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="js/form-submission-handler.js"></script>
+<!-- END -->
 
 <script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='4d3c51f643a45a91c3fc7a68a09b6ebe66861cfa6117ae3cc99d625e86f9b0b2';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>
 </body>
