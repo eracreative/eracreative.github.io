@@ -428,9 +428,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="align-items-center white-bg box-shadow px-3 py-3 radius d-md-flex justify-content-between">
 								<h4 class="mb-0">Subscribe</h4>
 								<div class="subscribe-form sm-mt-2">
-									<form id="mc-form" class="group">
-										<input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-										<input class="btn btn-theme" type="submit" name="subscribe" value="Subscribe">
+									<form id="mc-form gform" class="group"  method="POST" data-email="info@tcsconcept.com" action="https://script.google.com/macros/s/AKfycbwXlp6eiTrqATgPPqeGi1pcoGYu51fd-xB2T-00AQ/exec"
+									onsubmit="alert('Email Submitted Successfully!');return false">
+									<div class="messages form-elements">
+										<input type="email" value="" name="EMAIL" class="email" id="email" placeholder="Email Address" required="">
+										<input class="btn btn-theme" type="submit" name="subscribe" value="Subscribe"></div>
 									</form>
 								</div>
 							</div>
