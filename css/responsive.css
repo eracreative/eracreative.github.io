@@ -55,7 +55,7 @@ h6 {font-size: 17px; line-height: 22px;}
 .ht-theme-info {padding: 30px;}
 
 .boxed-view {padding: 20px 30px 30px;}
-.insideText {font-size: 150px; line-height: 150px;}
+.insideText {font-size: 150px; line-height: 150px; padding-right: 50px;}
 
 }
 
@@ -131,7 +131,7 @@ h6 {font-size: 17px; line-height: 26px;}
 /*Footer*/
 .secondary-footer {font-size: 14px;}
 
-.insideText {font-size: 100px; line-height: 100px;}
+.insideText {font-size: 100px; line-height: 100px; padding-right: 40px;}
 .error-page h1 {font-size: 200px; line-height: 150px;}
 
 }
@@ -208,7 +208,7 @@ h3 {font-size: 22px; line-height: 30px;}
 /*Price Table*/
 .price-value h2 {font-size: 34px; line-height: 30px; margin-top: 30px;}
 
-.insideText {font-size: 80px; line-height: 80px;}
+.insideText {font-size: 80px; line-height: 80px; padding-right: 30px;}
 .boxed-view {padding: 20px;}
 
 }
@@ -311,7 +311,7 @@ h4 {font-size: 18px; line-height: 26px;}
 .tab.style-2 .nav-tabs .nav-link{width: 100%;}
 .custom-li li{width: 100%;}
 
-.insideText {font-size: 60px; line-height: 60px;}
+.insideText {font-size: 60px; line-height: 60px; padding-right: 20px;}
 .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {font-size: 30px; margin: 0 5px; padding: 6px 40px !important;}
 
 .error-page h1 {font-size: 120px; line-height: 80px;}
