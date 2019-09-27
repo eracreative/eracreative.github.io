@@ -1,4 +1,4 @@
-/* ------------------------------------------------
+fLOG/* ------------------------------------------------
   Project:   Loptus - Digital Marketing Agency Responsive HTML5 Template
   Author:    ThemeHt
 ------------------------------------------------ */
@@ -246,9 +246,9 @@ h4 {font-size: 18px; line-height: 26px;}
 .xs-text-center{text-align: center;}
 
 /*header*/
-#header-wrap {padding: 70px 0 15px;}
+#header-wrap {padding: 70px 15px 15px 0;}
 #header-wrap.fixed-header{padding: 15px 0;}
-.right-nav{position: absolute; left: 80%; top: -60px; transform: translateX(-50%); -webkit-transform: translateX(-50%); -o-transform: translateX(-50%); -ms-transform: translateX(-50%); -moz-transform: translateX(-50%);}
+.right-nav{position: absolute; left: 65%; top: -60px; transform: translateX(-50%); -webkit-transform: translateX(-50%); -o-transform: translateX(-50%); -ms-transform: translateX(-50%); -moz-transform: translateX(-50%);}
 .play-btn span{display: none;}
 #ht-main-nav {width: 100%;}
 .navbar-toggler{margin-right: 0;}
