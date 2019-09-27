@@ -60,7 +60,7 @@ p{line-height: 1.9;}
 .lead{font-weight: normal; font-size: 16px; line-height: 30px;}
 .o-hidden{overflow: hidden;}
 .img-center{display: inline-block !important; max-width: 100%; }
-#logo-img{max-width: 100%; width: 40%;}
+#logo-img{max-width: 100%;}
 .pos-r{position: relative;}
 .z-index-0{z-index: 0; position: relative;}
 .z-index-1{z-index: 1; position: relative;}
