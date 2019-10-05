@@ -253,6 +253,7 @@ h4 {font-size: 18px; line-height: 26px;}
 #ht-main-nav {width: 100%;}
 .navbar-toggler{margin-right: 0;}
 #header-wrap.fixed-header .right-nav{display: none !important;}
+.whtsp{display: none !important;}
 
 /*Banner*/
 .fullscreen-banner p br{display: none;}
